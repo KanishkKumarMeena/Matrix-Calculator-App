@@ -1,8 +1,4 @@
 # Matrix Calculator Android App
-> ### Mobile Computing Assignment-3
-> ### Kanishk Kumar Meena (2022233)
-> [GitHub Link](https://github.com/KanishkKumarMeena/MC_2022233_Assignment-3/tree/main/2022233_Matrix_Calculator)
-
 Android application that performs matrix operations including addition, subtraction, multiplication, and division using a hybrid architecture combining Kotlin and C++. This application satisfies all requirements for the Matrix Calculator assignment.
 
 ## Features
@@ -13,7 +9,7 @@ Android application that performs matrix operations including addition, subtract
 - Clear error messages when operations are not possible
 - Matrix-themed UI with iconic green-on-black design
 
-## Assignment Implementation Details
+## Implementation Details
 
 1. **Activity with UI**
    - Implemented in `MainActivity.kt` using Jetpack Compose
@@ -90,4 +86,4 @@ The application will validate the matrices for the selected operation and displa
 ## App Screenshots
 | Addition | Muliplication | Division |
 |-|-|-|
-| ![Addition](/2022233_Matrix_Calculator/Screenshots/Addition.png) |![Multiplication](/2022233_Matrix_Calculator/Screenshots/Multiplication.gif) |![Division](/2022233_Matrix_Calculator/Screenshots/Division.gif)|
+| ![Addition](/Screenshots/Addition.png) |![Multiplication](/Screenshots/Multiplication.gif) |![Division](/Screenshots/Division.gif)|
