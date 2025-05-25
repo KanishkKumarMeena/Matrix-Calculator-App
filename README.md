@@ -9,6 +9,28 @@ Android application that performs matrix operations including addition, subtract
 - Clear error messages when operations are not possible
 - Matrix-themed UI with iconic green-on-black design
 
+## User Guide
+
+1. Set the dimensions for Matrix A
+2. Input the values for Matrix A
+3. Set the dimensions for Matrix B
+4. Input the values for Matrix B
+5. Select the desired operation (Add, Subtract, Multiply, or Divide)
+6. Click "CALCULATE"
+7. View the result matrix
+
+The application will validate the matrices for the selected operation and display appropriate error messages if the operation cannot be performed.
+
+### Operation Constraints
+- **Addition/Subtraction**: Both matrices must have the same dimensions
+- **Multiplication**: Columns of Matrix A must equal rows of Matrix B
+- **Division**: Matrix B must be square and non-singular (invertible) 
+
+## App Screenshots
+| Addition | Muliplication | Division |
+|-|-|-|
+| ![Addition](/Screenshots/Addition.png) |![Multiplication](/Screenshots/Multiplication.gif) |![Division](/Screenshots/Division.gif)|
+
 ## Implementation Details
 
 1. **Activity with UI**
@@ -64,26 +86,3 @@ The application follows a hybrid architecture:
    - Implements core matrix operations
    - Optimized for performance
    - Handles edge cases and exceptions
-
-
-## User Guide
-
-1. Set the dimensions for Matrix A
-2. Input the values for Matrix A
-3. Set the dimensions for Matrix B
-4. Input the values for Matrix B
-5. Select the desired operation (Add, Subtract, Multiply, or Divide)
-6. Click "CALCULATE"
-7. View the result matrix
-
-The application will validate the matrices for the selected operation and display appropriate error messages if the operation cannot be performed.
-
-### Operation Constraints
-- **Addition/Subtraction**: Both matrices must have the same dimensions
-- **Multiplication**: Columns of Matrix A must equal rows of Matrix B
-- **Division**: Matrix B must be square and non-singular (invertible) 
-
-## App Screenshots
-| Addition | Muliplication | Division |
-|-|-|-|
-| ![Addition](/Screenshots/Addition.png) |![Multiplication](/Screenshots/Multiplication.gif) |![Division](/Screenshots/Division.gif)|
