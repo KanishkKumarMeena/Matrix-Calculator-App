@@ -1,6 +1,8 @@
 # Matrix Calculator Android App
 Android application that performs matrix operations including addition, subtraction, multiplication, and division using a hybrid architecture combining Kotlin and C++. This application satisfies all requirements for the Matrix Calculator assignment.
 
+> [APK](https://github.com/KanishkKumarMeena/Matrix-Calculator-App/blob/main/Matrix%20Calculator.apk)
+
 ## Features
 
 - Perform matrix addition, subtraction, multiplication, and division
